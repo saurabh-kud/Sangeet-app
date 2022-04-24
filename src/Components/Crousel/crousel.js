@@ -18,9 +18,18 @@ function Carousel() {
       reloadOnUpdate // default false
       static // default false
     >
-      <img src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-1.webp" />
-      <img src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-2.webp" />
-      <img src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-3.webp" />
+      <img
+        src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-1.webp"
+        alt=""
+      />
+      <img
+        src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-2.webp"
+        alt=""
+      />
+      <img
+        src="https://raw.githubusercontent.com/saurabh-kud/Sangeet/master/image/slider-3.webp"
+        alt=""
+      />
     </Flickity>
   );
 }
