@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  /* padding: 0.5rem; */
+  align-items: center;
+  /* margin-bottom: 0.5rem; */
+  padding: 0 0.3rem 1.2rem 0;
+  /* font-size: 13px; */
+}
+.list p {
+  font-size: small;
+  margin-left: 0.5rem;
+  font-weight: 800;
+}
+.list:hover {
+  color: #2596be;
+  cursor: pointer;
+}

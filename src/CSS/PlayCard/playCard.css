@@ -1,0 +1,58 @@
+.player {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background: #242627;
+  z-index: 500;
+}
+.playerContainer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.playerContainer div {
+  width: 30%;
+  justify-content: center;
+  display: flex;
+}
+.infoPlayer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+.leftPart {
+  display: flex;
+  align-items: center;
+}
+.leftPart img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.control {
+  display: flex;
+  align-items: center;
+}
+.controlMiddle {
+  background-color: black;
+  border-radius: 25px;
+}
+.control div {
+  justify-content: center;
+}
+.controlLeft,
+.controlMiddle,
+.controlRight {
+  width: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.close {
+  position: relative;
+  top: 10px;
+}

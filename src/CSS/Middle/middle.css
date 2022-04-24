@@ -1,0 +1,17 @@
+.middle {
+  flex-grow: 0.5;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardLong {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

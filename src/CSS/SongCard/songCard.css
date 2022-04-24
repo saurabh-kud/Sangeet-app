@@ -1,0 +1,27 @@
+.middleCard {
+  display: flex;
+  flex-direction: column;
+}
+.middleCard img {
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.middleCard h3 {
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: normal;
+  white-space: nowrap;
+  width: 8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+.middleCard small {
+  font-size: small;
+}
+.middleCard:hover {
+  color: #2596be;
+  cursor: pointer;
+}

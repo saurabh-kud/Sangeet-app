@@ -1,0 +1,11 @@
+.left-section {
+  margin-left: 0.1rem;
+  flex-grow: 0.5;
+  background-color: #141823;
+  padding: 5px;
+  margin-top: 0.7rem;
+  flex-direction: column;
+}
+.left-section small {
+  opacity: 1;
+}
